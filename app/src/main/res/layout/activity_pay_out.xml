@@ -13,8 +13,9 @@
     android:orientation="vertical">
 
     <ImageButton
+
         android:src="@drawable/back_arrow"
-        android:id="@+id/button2"
+        android:id="@+id/PayoutBackArrow"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:background="@android:color/transparent"
@@ -52,13 +53,13 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:inputType="text" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -80,6 +81,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/Address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -87,8 +89,7 @@
             android:ems="10"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:inputType="textMultiLine"
-            android:text="dshfdhfohdfodhfohdfosdhfdhfodhfdhfdhdohodhfdhfosddhosdhfosdhfsdohfosdhhsdfdhofhdofhdsvhsohvsdohfwefh" />
+            android:inputType="textMultiLine" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -110,13 +111,13 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/Phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:inputType="text"
-            android:text="03054049038" />
+            android:inputType="text"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -165,6 +166,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/TotalAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -173,7 +175,6 @@
             android:gravity="end"
             android:inputType="none"
             android:paddingEnd="40dp"
-            android:text="$15"
             android:textColor="@color/textColor" />
 
     </LinearLayout>
@@ -181,14 +182,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/PlaceOrderButton"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_gravity="bottom"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/edittextdesign"
+        android:background="@drawable/greenbuttongradient"
         android:text="Place Order"
         android:textAllCaps="false"
-        android:textColor="@color/textColor" />
+        android:textColor="@color/black" />
 </FrameLayout>

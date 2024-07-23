@@ -29,13 +29,13 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:inputType="text"
-            android:text="Junaid" />
+            android:inputType="text" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,14 +58,14 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/Address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:inputType="textMultiLine"
-            android:text="hdhfodhfodhfodhfodhfdofhdofhdofhdofhdofhdofhsofhsdofhsdofhsdofhsdofhfdof" />
+            android:inputType="textMultiLine"/>
     </LinearLayout>
 
     <LinearLayout
@@ -88,13 +88,13 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/Email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:text="Developer@gmail.com" />
+            android:inputType="textEmailAddress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -117,24 +117,25 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/Phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:ems="10"
-            android:inputType="phone"
-            android:text="03054049038" />
+            android:inputType="phone"/>
     </LinearLayout>
 </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_gravity="bottom"
+        android:id="@+id/SaveInformationButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal|bottom"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/profilelinearlayoutbackground"
+        android:background="@drawable/greenbuttongradient"
         android:elevation="5dp"
         android:text="Save Information"
         android:textAllCaps="false"

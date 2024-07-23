@@ -65,7 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView4" />
 
-    <EditText
+    <TextView
         android:id="@+id/DetailsDescriptionTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
         app:layout_constraintStart_toStartOf="@+id/DetailsDescriptionTextView"
         app:layout_constraintTop_toBottomOf="@+id/DetailsDescriptionTextView" />
 
-    <EditText
+    <TextView
         android:id="@+id/DetailsIngredientsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

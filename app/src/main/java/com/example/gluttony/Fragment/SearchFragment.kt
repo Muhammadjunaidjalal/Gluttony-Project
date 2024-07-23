@@ -35,10 +35,10 @@ class SearchFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentSearchBinding.inflate(inflater,container,false)
+/*binding = FragmentSearchBinding.inflate(inflater,container,false)
         adaptar = menuAdaptar(filteredMenuFoodName,filteredMenuFoodPrice,filteredMenuImages, requireContext())
         binding.SearchRV.layoutManager= LinearLayoutManager(requireContext())
-        binding.SearchRV.adapter=adaptar
+        binding.SearchRV.adapter=adaptar*/
 
         setupSearchView()
         showAllMenu()
